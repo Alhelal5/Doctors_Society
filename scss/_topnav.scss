@@ -1,0 +1,31 @@
+
+.top{
+    // height: 40px;
+    // width: 100%;
+    .home-nav{
+        display: flex;
+        font-size: 15px;
+        font-weight: 500;
+        justify-content: space-between;
+        border-bottom: 1px solid #cfcfcf;
+        padding: 12px 0px;
+        .nav-ha, .nav-lf{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            text-align: center;
+            margin: 0 5.5%;
+            // margin-left: 37px;
+            a{
+                text-decoration: none;
+                color: #617283;
+                margin: 0px 10px;
+            }
+            a:hover{
+                transition: ease 1s;
+            }
+
+        }
+    }
+}

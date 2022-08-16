@@ -1,0 +1,150 @@
+.emergency{
+    .heading{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .h-con{
+            margin: 0;
+            h1{
+                font-weight: 700;
+                font-size: 30px;
+                color: #111417;
+                margin-bottom: 40px;
+            }
+            a{
+                margin: 12.88px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                color: #04518C;
+            }
+        }
+        .search-btn{
+            margin: 0;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                color: #04518C;
+            }
+        }
+
+        img{
+            width: 6.25px;
+            height: 10.49px;
+        }
+    }
+    .vehicle{
+        display: flex;
+        // justify-content: center;
+        gap: 24px;
+
+        .ambulance{
+            border-radius: 8px;
+            background: #F8FCFF;
+            align-items: center;
+            border: 1px solid #B8DFFD;
+            height: 414px;
+            margin: 0 auto;
+
+            .cover-img{
+                margin: 24px;
+                width: 331px;
+            }
+            h3{
+                color: #04518C;
+                text-align: center;
+                border-bottom: 1px solid #B8DFFD;
+                max-width: 325px;
+                margin: auto;
+                padding-bottom: 12px;
+            }
+            .benifits{
+                box-sizing: border-box;
+                margin: 10px 32px 24px 32.33px;
+                // height: 414px;
+
+                img{
+                    margin: 8px 8.33px 0px 0px ;
+                }
+
+                span{
+                    margin-top: 8px;
+                    line-height: 149%;
+                    color: #39434D;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+
+
+    }
+    
+}
+
+.why-ss{
+    margin-top: 100px;
+    h1{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 115%;
+        color: #111417;
+        margin: 8px auto;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 149%;
+        color: #617283;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin: 35px auto;
+
+        .container{
+            // display: flex;
+
+            background: #F8FCFF;
+            border-radius: 8px; 
+            // align-items: center;
+            margin: auto;
+            width: 389px;
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 149%;
+                color: #121212;
+                margin: auto 32px auto 52px ;
+            }
+            .img-name{
+                margin: 16px 0px 49px 52px;
+                display: flex;
+                align-items: center;
+                
+                span{
+                    margin: 12px;
+                }
+            }
+        }
+    }
+
+    .dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+        span{
+            height: 8px;
+            width: 8px;
+            background: #D0D3D6;
+            margin: 8px;
+            border-radius: 50%;
+        }
+    }
+}

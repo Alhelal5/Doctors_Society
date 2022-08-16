@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    margin: 0 auto;
+}
+.width{
+    // width: 85%;
+    width: 92.2916666667%;
+    margin: auto;
+}
+@import './topnav';
+@import './nav';
+@import './service';
+@import './doctors';
+@import './emergency';
+@import './news';
+@import './mobileapp';
+@import './bottom';
+@import './search';
+@import './margin';
+
+
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    // margin: 0px 50px 0px 50px;
+    // padding: 0px 25px;
+}
+
+

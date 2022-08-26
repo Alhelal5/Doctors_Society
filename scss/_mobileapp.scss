@@ -1,4 +1,6 @@
 .mobileapp{
+    // max-width: 100%;
+    // margin: 0 auto;
     .beni{
         background-image: url("../image/index/Group15.png");
         height: 584px;
@@ -7,7 +9,7 @@
             display: flex;
             // gap: 130px;
             // align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             color: #FFFFFF;
             .left{
                 h1{
@@ -31,7 +33,7 @@
                         .number{
                             // box-sizing:border-box;
                             position: absolute;
-                            width: 362px;
+                            max-width: 362px;
                             height: 48px;
                         }
 
@@ -52,7 +54,9 @@
 
 
 .partners{
-    margin-top: 100px;
+    .ops{
+        margin-top: 100px;
+    }
     .ourp{
         margin: 4px 0px;
         .op{
@@ -73,16 +77,26 @@
         margin: 35px 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 25px;
+        grid-gap: 24px;
         .part{
             display: flex;
-            width: 276px;
-            height: 235px;
-            background: #FFFFFF;
+            padding: 40px;
+            max-width: 286px;
+            max-height: 240px;
+            // background: #FFFFFF;
             border: 1px solid #DBEFFE;
             border-radius: 8px;
             align-items: center;
             justify-content: center;
+            &:hover{
+                background-color: #f4f7faa6;
+            }
+            img{
+                margin: 47px;
+                width: 100%;
+                // background: #d8e6f1;
+            }
+
         }
     }
 }
@@ -95,7 +109,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
     .left{
         h1{
             width: 364px;
@@ -149,7 +162,8 @@
             font-size: 14px;
             line-height: 18px;
             color: #FFFFFF;
-            border: 1px solid #19b2bd;;
+            border: 1px solid #19b2bd;
+            cursor: pointer;
         }
     }
 }

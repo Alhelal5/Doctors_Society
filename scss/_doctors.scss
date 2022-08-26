@@ -19,22 +19,6 @@
                 
             }
         }
-
-
-        .search-btn{
-            margin: 0;
-            a{
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 16px;
-                color: #04518C;
-            }
-            img{
-                width: 6.25px;
-                height: 10.49px;
-            }
-            
-        }
     }
     .specialist{
         // display: grid;
@@ -42,10 +26,9 @@
         // margin: 32px 0px;
         // gap: 5px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
-        gap: 5%;
         // margin: 32px 0;
         .service{
             display: flex;
@@ -64,7 +47,8 @@
                 align-items: center;
                 margin-bottom: 11px;
             }
-            span{
+            a{
+                text-decoration: none;
                 font-weight: 500;
                 font-size: 12px;
                 color: #078FF7;
@@ -78,13 +62,22 @@
         h1{
             margin-top: 8px;
         }
+        .search-btn{
+            padding-top: 10px;
+        }
     }
 
     .machines{
-        gap: 4.2%;
         margin-top: 32px;
 
         .service{
+            // cursor: pointer;
+            // transition: all 0.3s ease;
+            
+
+            // &:hover{
+            //     transform: scale(1.05);
+            // }
             
             img{
                 height: 144px;

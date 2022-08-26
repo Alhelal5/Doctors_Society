@@ -1,21 +1,22 @@
 .news{
-    margin: 100px auto;
+    // margin: 100px auto;
     // width: 100%;
+    .n-o-e{
+        margin-top: 100px;
+
+    }
 
     .links {
         display: flex;
         list-style-type: none;
         justify-content: left;
         padding: 24px;
+        margin-top: 52px;
         // width: 100%;
         // margin: auto;  
         border-bottom: 2px solid #F1F1F1;
         li{
-            margin: 0px 65px;
-            :hover{
-                text-decoration: underline;
-                // padding: 5px 10px;
-            }
+            // margin: 0px 65px;
         }
         a{
             text-decoration:none;
@@ -24,7 +25,16 @@
             line-height: 120%;
             text-align: center;
             color: #04518C;
-            margin:0px;
+            width: 145px;
+            padding: 0 75px;
+
+            &:hover{
+                padding-bottom: 24px;
+                border-bottom: 3px solid #71BFFB;
+                width: 208px;
+                // padding: 5px 10px;
+            }
+
         }
         
     }
@@ -41,22 +51,29 @@
         justify-content: space-between;
         margin-top: 24px;
         .vectors{
-            width: 480px;
+            max-width: 480px;
             height: 290.37px;
             position: relative;
-            .one{
-                height: 271px;
-                width: 458px;
+            .up{
+                max-width: 458px;
                 position: absolute;
                 z-index: 100;
                 left: 0;
                 top: 0;
+
+                .one{
+                    width: 100%;
+                }
             }
-            .two{
+            .down{
+                max-width: 424px;
                 position: absolute;
                 z-index: 1;
                 bottom: 0;
                 right: 0;
+                .two{
+                    width: 100%;
+                }
             }          
         }
         .con-one {
@@ -72,7 +89,7 @@
             }
         }
         .con-two{
-            width: 682px;
+            max-width: 682px;
             height: 409px;
             border: 2px solid #F1F1F1;
             border-radius: 4px;
@@ -81,11 +98,17 @@
 
             .article{
                 display: flex;
+                cursor: pointer;
             }
+            
             img{
                 margin: 24px 16px auto 24px;
             }
             .dates{
+                
+            &:hover{
+                color: #0075eb;
+            }
                 h2{
                     max-width: 450px;
                     font-weight: 700;
@@ -117,11 +140,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 65px;
+        margin: 65px 0 104px 0;
         .view-more{
             padding: 16px 32px;
             gap: 4px;
-            width: 210px;
+            max-width: 210px;
             height: 52px;
             background: #19B3BD;
             border-radius: 4px;
@@ -131,12 +154,16 @@
             line-height: 18px;
             color: #FFFFFF;
             outline: none !important;
-        }
+            &:hover{
+                border: 3px double rgb(255, 255, 255); 
+            }
+        } 
+        
     }
 
     
 ::-webkit-scrollbar {
-    width: .8vw;
+    width: 0.8vw;
     border: 2px;
   }
 ::-webkit-scrollbar-track {

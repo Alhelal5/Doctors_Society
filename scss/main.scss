@@ -1,16 +1,17 @@
 
-*{
+
+* , html , body{
     margin: 0;
     padding: 0;
-    max-width: 1440px;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
-    margin: 0 auto;
+    scroll-behavior:smooth;
+    // font-size: 14px;
+    // margin: 0 auto;
 }
-.width{
-    // width: 85%;
-    width: 92.2916666667%;
-    margin: auto;
+head .logo_img{
+    border-radius: 50%;
+    color: #111;
 }
 @import './topnav';
 @import './nav';
@@ -22,6 +23,9 @@
 @import './bottom';
 @import './search';
 @import './margin';
+// @import './scrollbar';
+// @import './owl';
+
 
 
 @mixin flexcenter {
@@ -33,5 +37,7 @@ body{
     // margin: 0px 50px 0px 50px;
     // padding: 0px 25px;
 }
+
+
 
 

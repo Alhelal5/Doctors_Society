@@ -5,7 +5,8 @@
         color: #FFFFFF;
         display: flex;
         // align-items: center;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 107px;
         .one{
             img{
                 background-color: #023154;
@@ -36,9 +37,14 @@
             }
 
         }
+        .twoo{
+            display: flex;
+            gap: 140px;
+        }
         .li-a{
             list-style-type: none;
             margin: 0 5px;
+            i{display: none;}
             h2{
                 color: #FFFFFF;
                 margin-bottom: 8px;
@@ -63,7 +69,7 @@
         
     }
     .cr{
-        padding: 20px;
+        padding-bottom: 20px;
         margin-top: 19px;
         font-weight: 400;
         font-size: 13px;

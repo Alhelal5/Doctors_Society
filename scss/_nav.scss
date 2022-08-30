@@ -9,26 +9,38 @@
         // max-width: 1256px;
         // padding: 12px 80px;
         // margin: 0 6%;
-
         // width: 92.2916666667%;
         padding: 12px 0;
+        .menu{
+            display: none;
+        }
         .links{
             display: flex;
             justify-content: space-around;
             align-items: center;
             text-align: center;
             list-style-type: none;
+            img{
+                margin-right: 28px;
+            }
+            li{
+                margin: 0px 20px;
+            }
             h1{
                 color: #04518C;
             }
             a{
                 text-decoration: none;
                 color: #617283;
-                margin-left: 56px;
+                padding: 10px 8px;
+                white-space: nowrap;
+                // margin-left: 56px;
             }
             a:hover{
                 // transition: ease 1s;
                 color: #078FF7;
+                // background: rgb(238, 239, 245);
+                border-bottom: 2px solid #078FF7;;
             }
         }
         .login{

@@ -23,6 +23,11 @@ head .logo_img{
 @import './bottom';
 @import './search';
 @import './margin';
+@import './Media-Q/mcommon';
+@import './Media-Q/mindex';
+@import './Media-Q/mservice';
+@import './Media-Q/mmobileapp';
+
 // @import './scrollbar';
 // @import './owl';
 
@@ -33,10 +38,10 @@ head .logo_img{
     justify-content: center;
     align-items: center;
 }
-body{
-    // margin: 0px 50px 0px 50px;
-    // padding: 0px 25px;
-}
+// body{
+//     margin: 0px 50px 0px 50px;
+//     padding: 0px 25px;
+// }
 
 
 

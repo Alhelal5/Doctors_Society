@@ -29,13 +29,16 @@
         display: flex;
         // justify-content: center;
         gap: 24px;
+        .four{
+            display: none;
+        }
 
         .ambulance{
             border-radius: 8px;
             background: #F8FCFF;
             align-items: center;
             border: 1px solid #B8DFFD;
-            height: 414px;
+            max-height: 414px;
             max-width: 389px;
             margin: 0 auto;
             padding: 24px;
@@ -80,8 +83,44 @@
     }
     
 }
+.diagonostic{
+    .headings{
+        h1{
+            margin-top: 8px;
+        }
+        .search-btn{
+            padding-top: 10px;
+        }
+    }
+
+    .machines{
+        margin-top: 32px;
+
+        .service{
+            // cursor: pointer;
+            // transition: all 0.3s ease;
+            
+
+            // &:hover{
+            //     transform: scale(1.05);
+            // }
+            
+            img{
+                height: 144px;
+                width: 144px;
+                margin: 2px 0 ;
+            }
+            .fifth-img{
+                margin-top: 25px;
+
+            }
+        }
+
+    }
+}
 
 .why-ss{
+    // margin-top: 100px;
     .y-seba{
         margin-top: 100px;
     }
@@ -111,7 +150,7 @@
             border-radius: 8px; 
             // align-items: center;
             margin: auto;
-            width: 389px;
+            max-width: 389px;
             cursor: grab;
             
 
@@ -129,6 +168,7 @@
 
                 span{
                     margin: 12px;
+                    color: #023154;
                 }
             }
         }

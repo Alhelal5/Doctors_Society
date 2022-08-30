@@ -1,10 +1,13 @@
 .doctors{
     // margin: auto
     // padding: 0 10px;
+    
+
     .headings{
         display: flex;
         justify-content: space-between;
         margin-top: 100px;
+        
         .h-con{
             margin: 0;
             h1{
@@ -57,38 +60,3 @@
     }
 }
 
-.diagonostic{
-    .headings{
-        h1{
-            margin-top: 8px;
-        }
-        .search-btn{
-            padding-top: 10px;
-        }
-    }
-
-    .machines{
-        margin-top: 32px;
-
-        .service{
-            // cursor: pointer;
-            // transition: all 0.3s ease;
-            
-
-            // &:hover{
-            //     transform: scale(1.05);
-            // }
-            
-            img{
-                height: 144px;
-                width: 144px;
-                margin: 2px 0 ;
-            }
-            .fifth-img{
-                margin-top: 25px;
-
-            }
-        }
-
-    }
-}

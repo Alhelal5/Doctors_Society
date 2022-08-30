@@ -12,17 +12,18 @@
             font-size: 44px;
             color: #111417;
             max-width: 555px;
-            margin-top: 32px ;
+            margin-top: 32px;
+            line-height: 50.6px;
         }
         p{
             font-weight: 400;
-            font-size: 14px;
+            font-size: 16px;
             color: #4D5A68;
             max-width: 443px;
             margin: 8px 0px;
         }
         .search-box{
-            height: 161px;
+            min-height: 161px;
             max-width: 624px;
             border-radius: 4px;
             background-color: #023154;
@@ -30,17 +31,22 @@
 
             .links{
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 list-style-type: none;
                 text-align: center;
                 align-items: center;
-                height: 40px;
+                // height: 40px;
                 border-bottom: 1px solid #617283;
                 // width: 100%;
-                // padding: 16px 24px;
+                padding: 15px 22px;
+                
+                .fa-solid{
+                    display: none;
+                    color: #FFFFFF;
+                }
                 .findoc{
                     // color: #FFFFFF;
-                    padding-bottom: 9px;
+                    // padding-bottom: 9px;
                     // border-bottom: 2px solid #71BFFB;
                 }
 
@@ -52,7 +58,7 @@
                     // padding:10px 15px;
                     &:hover{
                         color: #FFFFFF;
-                        padding-bottom: 9px;
+                        padding-bottom: 15px;
                         border-bottom: 2px solid #71BFFB;
                     }
                 }
@@ -69,7 +75,7 @@
                     display: flex;
                     align-items: center;
                     max-width: 371px;
-                    max-height: 52px;
+                    min-height: 52px;
                     background-color: #FFFFFF;
                     margin: 24px 24px 32px 24px;
                     border: 1px solid #04518C;
@@ -77,7 +83,6 @@
 
                     .search_control{
                         max-width: 316px;
-                        height: 52px;
                         border: none;
                         background-color: transparent;
                         resize: none;
@@ -108,13 +113,13 @@
         }
     }
     .img{
-        max-width: 495px;
-        max-height: 469px;
-        min-width: 403px;
+        // min-width: 403px;
         border-radius: 12px;
         margin: 0;
         img{
             width: 100%;
+            max-width: 495px;
+            max-height: 469px;
         }
 
     }

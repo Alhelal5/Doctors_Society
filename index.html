@@ -4,135 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./css/style.css">
+    <link class="logo_img" rel="icon" href="./image/logo.jpg">
     <title>Doctors Society</title>
-</head>
-<body>
-    <section class="top">
-        <nav class="home-nav">
-            <ul class="nav-ha">
-                <li><a href="#">Health Checkup & Insurance</a></li>
-                <li><a href="#">Domiciliary Services</a></li>
-                <li><a href="#">Find Blood</a></li>
-                <li><a href="#">Medical Equipments</a></li>
-                <li><a href="#">Diagnostic Home Services</a></li>
-            </ul>
-            <ul class="nav-lf">
-                <li><a href="#">Get the app</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        </nav>
-        <span id="line"></span>
-    </section>
-    <div class="nav">
-        <section class="find-us">
-            <div class="service">
-                <div class="links">
-                    <!-- <h1>Doctors Society</h1> -->
-                    <img src="./image/index/sasthya.png" alt="">
-                    <li><a href="#">Find Doctor</a></li>
-                    <li><a href="#">Find Hospital</a></li>
-                    <li><a href="#">Find Ambulance</a></li>
-                    <li><a href="#">Shop Now</a></li>
-                </div>
-                <button class="login">Login/Signup</button>
-            </div>
+    <script src="https://kit.fontawesome.com/38554ff06d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="nav-width">
+        <section class="top auto">
+            <div class="width-m">
+                <nav class="home-nav">
+                    <ul class="nav-ha">
+                        <li class="one"><a href="health.html">Health Checkup & Insurance</a></li>
+                        <li><a href="domiciliaryservices.html">Domiciliary Services</a></li>
+                        <li><a href="#">Find Blood</a></li>
+                        <li><a href="#">Medical Equipments</a></li>
+                        <li><a href="diagnostichome.html">Diagnostic Home Services</a></li>
+                    </ul>
+                    <ul class="nav-lf">
+                        <li><a href="#">Get the app</a></li>
+                        <li class="mop"><a href="#">Support</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr class="line">
         </section>
+        <div class="nav">
+            <section class="find-us width-m">
+                <div class="service ">
+                    <a href="#" class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <div class="links">
+                        <!-- <h1>Doctors Society</h1> -->
+                        <img src="./image/index/sasthya.png" alt="">
+                        <li><a href="doctors.html">Find Doctor</a></li>
+                        <li><a href="hospital.html">Find Hospital</a></li>
+                        <li><a href="ambulance.html">Find Ambulance</a></li>
+                        <li><a href="#">Shop Now</a></li>
+                    </div>
+                    <div class="btnn">
+                        <button class="login">Login/Signup</button>
+                    </div>
+                    
+                </div>
+    
+            </section>
+        </div>
     </div>
+
 
     <!-- bodyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy -->
 
-    <div class="width-m">
+    <div class="wwwwidth-m">
             
-        <section id="serve" class="wwidth">
-            <div class="service ">
-                <h1>Get the best service at the most needed moment</h1>
-                <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
-                <div class="search-box">
-                    <div class="links">
-                        <li><a href="#" class="findoc">Find Doctors / Hospitals / Diagnostic Centers</a></li>
-                        <li><a href="#">Find Ambulance</a></li>
-                        <li><a href="#">Avail Services</a></li>
-                    </div>
-                    <div class="search">
-                        <div class="search-bar">
-                            <img src="./logo_img/index/search.png">
-                            <input type="text" name="srarch_here" class="search_control"placeholder="Search doctors, hospitals, clinics" >
+        <section class=" width-m" >
+            <div class="serve">
+                <div class="service">
+                    <h1>Get the best service at the most needed moment</h1>
+                    <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
+                    <div class="search-box">
+                        <div class="links">
+                            <li><a href="hospital.html" class="findoc">Find Doctors / Hospitals / Diagnostic Centers</a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li><a href="ambulance.html" class="hide-m">Find Ambulance</a></li>
+                            <li><a href="domiciliaryservices.html" class="hide-m">Avail Services</a></li>
                         </div>
-                        <div class="search-btn">
-                            <button type="submit" class="btn">Search</button>
+                        <div class="search">
+                            <div class="search-bar">
+                                <img src="./logo_img/index/search.png">
+                                <input type="text" name="srarch_here" class="search_control"placeholder="Search doctors, hospitals, clinics" >
+                            </div>
+                            <div class="search-btn">
+                                <button type="submit" class="btn">Search</button>
+                            </div>
                         </div>
                     </div>
+    
                 </div>
-
-            </div>
-            <div class="img">
-                <img src="./image/index/Rectangle 10.png" alt="doctor">
-
+                <div class="img">
+                    <img src="./image/index/Rectangle 10.png" alt="doctor">
+    
+                </div>
             </div>
         </section>
 
-        <section class="doctors wwidth m6">
+        <section class="doctors width-m">
             <div class="headings">
                 <div class="h-con">
                     <h1>Consult our top specialized doctors</h1>
                     <p>Our doctors are ready to serve you 24/7</p>
                 </div>
-                <div class="search-btn">
-                    <a href="#">View all</a>
-                    <img src="./logo_img/index/Vector.png" alt="">
+                <div class="view-all">
+                    <a href="#">
+                        <span>View all</span>
+                    </a>
                 </div>
             </div>
             <div class="specialist">
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/one.png" alt="">
                     <h2>Dermatologists</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/two.png" alt="">
                     <h2>Cardiologists</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/three.png" alt="">
                     <h2>Gynecologists</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/four.png" alt="">
                     <h2>Orthopedists</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/five.png" alt="">
                     <h2>Opthalmologist</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./logo_img/index/six.png" alt="">
                     <h2>Allergist</h2>
-                    <span>Consult Now</span>
+                    <a href="#">Consult Now</a>
                 </div>
             </div>
+            <button class="view-all-m">
+                <div class="va-btn">
+                    <a href="#">View all</a>
+                    <object data="./logo_img/index/Vector.png" type=""></object>
+                </div>
+            </button>
+
         </section>
 
-        <section class="emergency wwidth m6">
+        <section class="emergency width-m">
             <div class="heading">
                 <div class="h-con">
                     <h1>We are ready to help at your emergency</h1>
                 </div>
-                <div class="search-btn">
-                    <a href="#">View all</a>
-                    <img src="./logo_img/index/Vector.png" alt="">
+                <div class="view-all">
+                    <a href="#">
+                        <span>View all</span>
+                    </a>
                 </div>
             </div>
             <div class="vehicle m0">
-                <div class="ambulance one">
+                <div class="ambulance one hover2">
                     <img class="cover-img" src="./image/index/AC.png" alt="">
-                    <h3>A/C Ambulances</h3>
+                    <a href="#">A/C Ambulances</a>
                     <div class="benifits">
                         <div class="ben">
                             <img src="./logo_img/index/coolicon.png" alt="">
@@ -148,9 +182,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="ambulance two">
+                <div class="ambulance two hover2">
                     <img class="cover-img" src="./image/index/icu.png" alt="">
-                    <h3>ICU Ambulances</h3>
+                    <a href="#">ICU Ambulances</a>
                     <div class="benifits">
                         <div class="ben">
                             <img src="./logo_img/index/coolicon.png" alt="">
@@ -166,9 +200,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="ambulance three">
+                <div class="ambulance three hover2">
                     <img class="cover-img" src="./image/index/air.png" alt="">
-                    <h3>Air Ambulances</h3>
+                    <a href="#">Air Ambulances</a>
+                    <div class="benifits">
+                        <div class="ben">
+                            <img src="./logo_img/index/coolicon.png" alt="">
+                            <span>Key benefit line goes here</span>
+                        </div>
+                        <div class="ben">
+                            <img src="./logo_img/index/coolicon.png" alt="">
+                            <span>Key benefit line goes here</span>
+                        </div>
+                        <div class="ben">
+                            <img src="./logo_img/index/coolicon.png" alt="">
+                            <span>Key benefit line goes here</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ambulance four hover2">
+                    <img class="cover-img" src="./image/index/AC.png" alt="">
+                    <a href="#">Freezer Ambulances</a>
                     <div class="benifits">
                         <div class="ben">
                             <img src="./logo_img/index/coolicon.png" alt="">
@@ -185,79 +237,95 @@
                     </div>
                 </div>
             </div>
+            
+            <button class="view-all-m"> 
+                <div class="va-btn">
+                    <a href="#">View all</a>
+                    <img src="./logo_img/index/Vector.png" alt="">
+                </div>
+            </button>
 
         </section>
+        
 
-        <section class="doctors diagonostic wwidth m6">
+        <section class="doctors diagonostic width-m">
             <div class="headings ">
                 <div class="h-con m0">
                     <h1>Get timely, cost-effective, and high quality diagnostic care</h1>
                     <p>Book tests with top labs, get sample pick up, share reports with doctors online</p>
                 </div>
-                <div class="search-btn m0">
-                    <a href="#">View all</a>
-                    <img src="./logo_img/index/Vector.png" alt="">
+                <div class="view-all">
+                    <a href="#">
+                        <span>View all</span>
+                    </a>
                 </div>
             </div>
             <div class="specialist machines">
-                <div class="service">
+                <div class="service hover3">
                     <img src="./image/index/b1.png" alt="">
                     <h2>Radiology</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./image/index/b2.png" alt="">
                     <h2>Blood Tests</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./image/index/b3.png" alt="">
                     <h2>Cardiophysiology</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./image/index/b4.png" alt="">
                     <h2>Pathology</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img class="fifth-img" src="./image/index/b5.jpg" alt="">
                     <h2>Biopsy and Needle <br> Aspiration</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
-                <div class="service">
+                <div class="service hover3">
                     <img src="./image/index/b6.png" alt="">
                     <h2>Endoscopy</h2>
-                    <span>Check Prices</span>
+                    <a href="#">Check Prices</a>
                 </div>
             </div>
+            
+            <button class="view-all-m"> 
+                <div class="va-btn">
+                    <a href="#">View all</a>
+                    <img src="./logo_img/index/Vector.png" alt="">
+                </div>
+            </button>
         </section>
 
-        <section class="why-ss wwidth">
-            <div class="y-seba m6">
+        <section class="why-ss width-m">
+            <div class="y-seba ">
                 <div class="headings m0">
                     <h1>Why people love Sasthya Seba</h1>
                     <p>We continuously improve our services based on the opinion of our users</p>
                 </div>
-                <div class="main-container m0">
-                    <div class="container">
-                        <img src="./image/index/“.png" alt="">
+                <div class="main-container m0 carousel owlcarousel owl-carousel owl-theme">
+                    <div class="container one hover2">
+                        <img class="yimg" src="./image/index/“.png" alt="">
                         <p>Donec tempor rhoncus sed porta quisque lacus sit. Viverra purus interdum vel justo enim eleifend maecenas. Sollicitudin aliquam ullamcorper a eu. Massa aliquam lectus tincidunt.</p>
                         <div class="img-name">
                             <img src="/image/index/Rectangle 15.png" alt="">
                             <span>Maryann Aufderhar</span>
                         </div>
                     </div>
-                    <div class="container">
-                        <img src="./image/index/“.png" alt="">
+                    <div class="container two hover2">
+                        <img class="yimg" src="./image/index/“.png" alt="">
                         <p>Tempor, arcu ullamcorper felis sit consequat pellentesque nibh orci libero. Proin pharetra amet, praesent nascetur faucibus sollicitudin. Ut morbi tellus proin quisque ut.</p>
                         <div class="img-name">
                             <img src="/image/index/Rectangle 17.png" alt="">
                             <span>Doris Zboncak</span>
                         </div>
                     </div>
-                    <div class="container">
-                        <img src="./image/index/“.png" alt="">
+                    <div class="container three hover2">
+                        <img class="yimg" src="./image/index/“.png" alt="">
                         <p>Faucibus sit magna in aliquet fermentum egestas. Semper id metus, dictumst ipsum, eget dui, amet massa augue. Turpis quam lobortis enim aliquet tincidunt lacus. </p>
                         <div class="img-name">
                             <img src="/image/index/Rectangle 19.png" alt="">
@@ -269,7 +337,7 @@
             </div>
 
             <div class="dots">
-                <span> </span>
+                <span class="one"> </span>
                 <span> </span>
                 <span> </span>
                 <span> </span>
@@ -277,19 +345,29 @@
             
         </section>
 
-        <section class="news wwidth ">
-            <div class="n-o-e m6">
-                <h1>Recent news, offers & events</h1>
+        <section class="news width-m ">
+            <div class="n-o-e ">
+                <h1>Recent news, updates, offers & events</h1>
+                <a href="#" class="bar">
+                    <div class="one">
+                        <h3>Latest News</h3>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </a>
                 <div class="links">
-                    <li><a href="News">News</a></li>
+                    <li><a class="one" href="News">News</a></li>
                     <li><a href="Offers">Offers</a></li>
                     <li><a href="Events">Events</a></li>
                 </div>
-                <div class="container">
+                <div class="containerr">
                     <div class="con-one">
                         <div class="vectors">
-                            <img class="one" src="./image/index/Rectangle.png" alt="vectorsssss">
-                            <img class="two" src="./image/index/vectorssssssss.png" alt="">
+                            <div class="up">
+                                <img class="one" src="./image/index/Rectangle.png" alt="vectorsssss">
+                            </div>
+                            <div class="down">
+                                <img class="two" src="./image/index/vectorssssssss.png" alt="">
+                            </div>
                         </div>
                         <h2>Cras venenatis augue feugiat consectetur libero, mauris sed morbi.</h2>
                     </div>
@@ -333,19 +411,29 @@
                         </div>
                         <span class="line"></span>
                     </div>
-                    
                 </div>
-                <div class="btn">
+                <a href="#" class="bar plus">
+                    <div class="one">
+                        <h3>Offers</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </a>
+                <a href="#" class="bar plus">
+                    <div class="one">
+                        <h3>Events</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </a>
+                <div class="btn"> 
                     <button class="view-more">View More</button>
                 </div>
             </div>
 
         </section>
 
-
         <section class="mobileapp">
-            <div class="beni">
-                <div class="sides wwidth">
+            <div class="beni auto">
+                <div class="sides width-m">
                     <div class="left">
                         <h1>Get all the benefits of Sasthyaseba
                             through our mobile app
@@ -355,6 +443,7 @@
                             <li><a href="">Order doorstep services</a></li>
                             <li><a href="">Get digital prescription</a></li>
                         </div>
+                        <p>Get the link to download mobile app</p>
                         <div class="search">
                             <div class="search-bar">
                                 <div class="num">
@@ -364,7 +453,7 @@
                                 <input type="text" name="srarch_here" class="search_control"placeholder="Enter phone number" >
                             </div>
                             <div class="search-btn">
-                                <button type="submit" class="btn">Search</button>
+                                <button type="submit" class="btn">Send SMS</button>
                             </div>
                         </div>
                         <!-- <div class="sms">
@@ -381,8 +470,12 @@
                             </div>
                         </div> -->
                         <div class="appstore">
-                            <img src="./image/index/google-play-badge 1.png" alt="">
-                            <img src="./image/index/apple-store.png" alt="">
+                            <a href="https://play.google.com/store/games?hl=en&gl=US">
+                                <img class="hover" src="./image/index/google-play-badge 1.png" alt="">
+                            </a>
+                            <a href="https://www.apple.com/app-store/">
+                                <img class="hover" src="./image/index/apple-store.png" alt="">
+                            </a>
                         </div>
                     
                     </div>
@@ -392,87 +485,104 @@
                 </div>
             </div>
 
-            <div class="partners wwidth">
+            <div class="partners width-m">
                 <div class="ops m6">
                     <div class="ourp m0" >
                         <h1 class="op">Our partners</h1>
                         <p>We pride in ourselves for some of our partners</p>
                     </div>
                     <div class="grid-p m0">
-                        <div class="part 1"><img src="./image/index/g-1.png" alt=""></div>
-                        <div class="part 2"><img src="./image/index/g-2.png" alt=""></div>
-                        <div class="part 3"><img src="./image/index/g-3.png" alt=""></div>
-                        <div class="part 4"><img src="./image/index/g-4.png" alt=""></div>
-                        <div class="part 5"><img src="./image/index/g-5.png" alt=""></div>
-                        <div class="part 6"><img src="./image/index/g-6.png" alt=""></div>
-                        <div class="part 7"><img src="./image/index/g-7.png" alt=""></div>
-                        <div class="part 8"><img src="./image/index/g-8.png" alt=""></div>
+                        <div class="part 1 hover2"><img src="./image/index/g-1.png" alt=""></div>
+                        <div class="part 2 hover2"><img src="./image/index/g-2.png" alt=""></div>
+                        <div class="part 3 hover2"><img src="./image/index/g-3.png" alt=""></div>
+                        <div class="part 4 hover2"><img src="./image/index/g-4.png" alt=""></div>
+                        <div class="part 5 hover2"><img src="./image/index/g-5.png" alt=""></div>
+                        <div class="part six hover2"><img src="./image/index/g-6.png" alt=""></div>
+                        <div class="part 7 hover2"><img src="./image/index/g-7.png" alt=""></div>
+                        <div class="part 8 hover2"><img src="./image/index/g-8.png" alt=""></div>
                     </div>
                 </div>
 
             </div>
 
-            <div class="advice width">
-                <div class="left">
-                    <h1>Need some advice from our experts?</h1>
-                    <p class="p1">Request a call back now!</p>
-                    <p class="p2">The quickest way to get in contact is to telephone: 0125412464</p>
-                </div>
-                <div class="right">
-                    <p>Please fill out this quick form and we'll get back to you within few hours!</p>
-                    <input type="text" placeholder="Enter your name">
-                    <input type="number" placeholder="Enter your contact number">
-                    <input type="submit" class="submit" placeholder="Call Me Back">
-
+            <div class="width-m">
+                <div class="advice ">
+                    <div class="left">
+                        <h1>Need some advice from our experts?</h1>
+                        <p class="p1">Request a call back now!</p>
+                        <p class="p2">The quickest way to get in contact is to telephone: 0125412464</p>
+                    </div>
+                    <div class="right">
+                        <p>Please fill out this quick form and we'll get back to you within few hours!</p>
+                        <input type="text" placeholder="Enter your name">
+                        <input type="number" placeholder="Enter your contact number">
+                        <input type="submit" class="submit" placeholder="Call Me Back">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer class="bottom">
-            <div class="footer width">
+        <footer class="bottom auto">
+            <div class="footer width-m">
                 <div class="one">
-                    <img src="./image/index/sasthya_white.png" alt="">
+                    <img class="logo" src="./image/index/sasthya_white.png" alt="">
                     <p>Risus sed morbi nullam aliquam. Ac felis, elementum mauris orci lacus, amet, sagittis. Dapibus eleifend placerat.</p>
                     <div class="social">
-                        <img src="./image/index/facebook-square-brands.png" alt="">
-                        <img src="./image/index/instagram-brands.png" alt="">
-                        <img src="./image/index/twitter-brands.png" alt="">
+                        <a href="https://www.facebook.com/muhebbul/">
+                            <img class="fb" src="./image/index/facebook-square-brands.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/alhelal_aman/">
+                            <img class="insta" src="./image/index/instagram-brands.png" alt="">
+                        </a>
+                        <a href="https://twitter.com/al_helal_aman">
+                            <img class="twit" src="./image/index/twitter-brands.png" alt="">
+                        </a>
                     </div>
                     <div class="num">
-                        <img src="./image/index/call.png" alt="">
-                        <span>0125412464</span>
+                        <!-- <img src="./image/index/call.png" alt=""> -->
+                        <a href="tel:0125412464">0125412464</a>
                     </div>
                 </div>
-                <div class="li-a two">
-                    <h2>Sasthya Seba</h2>
-                    <li><a href="Contact">Contact</a></li>
-                    <li><a href="About">About</a></li>
-                    <li><a href="FAQ">FAQ</a></li>
-                    <li><a href="Blog">Blog</a></li>
-                    <li><a href="Privacy Policy">Privacy Policy</a></li>
-                    <li><a href="Refund">Refund</a></li>
-                    <li><a href="License">License</a></li>
-                </div>
-                <div class="li-a three">
-                    <h2>For Patients</h2>
-                    <li><a href="Search Doctors">Search Doctors</a></li>
-                    <li><a href="Search Clinics">Search Clinics</a></li>
-                    <li><a href="Search Hospitals">Search Hospitals</a></li>
-                    <li><a href="Search Ambulance">Search Ambulance</a></li>
-                    <li><a href="Search Blood">Search Blood</a></li>
-                    <li><a href="Domiciliary Services">Domiciliary Services</a></li>
-                    <li><a href="Health Checkup Packages">Health Checkup Packages</a></li>
-                    <li><a href="Diagnostic Services">Diagnostic Services</a></li>
-                    <li><a href="Insurances">Insurances</a></li>
-                </div>
-    
-                <div class="li-a four">
-                    <h2>For Doctors/Organisations</h2>
-                    <li><a href="Work With Us">Work With Us</a></li>
-                    <li><a href="Plans & Benefits">Plans & Benefits</a></li>
-                    <li><a href="Partnership">Partnership</a></li>
-                    <li><a href="Policies">Policies</a></li>
-                    <li><a href="Reviews">Reviews</a></li>
+                <div class="twoo">
+                    <div class="li-a two">
+                        <h2>Sasthya Seba</h2>
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="list-item">
+                            <li><a href="Contact">Contact</a></li>
+                            <li><a href="About">About</a></li>
+                            <li><a href="FAQ">FAQ</a></li>
+                            <li><a href="Blog">Blog</a></li>
+                            <li><a href="Privacy Policy">Privacy Policy</a></li>
+                            <li><a href="Refund">Refund</a></li>
+                            <li><a href="License">License</a></li>
+                        </div>
+                    </div>
+                    <div class="li-a three">
+                        <h2>For Patients</h2>
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="list-item">
+                            <li><a href="Search Doctors">Search Doctors</a></li>
+                            <li><a href="Search Clinics">Search Clinics</a></li>
+                            <li><a href="Search Hospitals">Search Hospitals</a></li>
+                            <li><a href="Search Ambulance">Search Ambulance</a></li>
+                            <li><a href="Search Blood">Search Blood</a></li>
+                            <li><a href="Domiciliary Services">Domiciliary Services</a></li>
+                            <li><a href="Health Checkup Packages">Health Checkup Packages</a></li>
+                            <li><a href="Diagnostic Services">Diagnostic Services</a></li>
+                            <li><a href="Insurances">Insurances</a></li>
+                        </div>
+                    </div>
+                    <div class="li-a four">
+                        <h2>For Doctors/Organisations</h2>
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="list-item">
+                            <li><a href="Work With Us">Work With Us</a></li>
+                            <li><a href="Plans & Benefits">Plans & Benefits</a></li>
+                            <li><a href="Partnership">Partnership</a></li>
+                            <li><a href="Policies">Policies</a></li>
+                            <li><a href="Reviews">Reviews</a></li>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -480,6 +590,39 @@
         </footer>
     </div>
 
-    
+    <!-- $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+    }); -->
+    <script type="text/JavaScript">
+        $('.carousel').owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 3,
+                nav: false
+            }
+        }
+
+    });
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html> 

@@ -74,6 +74,9 @@
     button:hover{
         background: #0091ffb0;
     }
+    button:hover{
+        border: 3px double white;
+    }
 }
 
 input::placeholder{

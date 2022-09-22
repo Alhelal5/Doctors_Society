@@ -22,64 +22,53 @@ button:hover{
 }
 
 .view-all{
+    margin-top: 10px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
     a{
         text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         color: #04518C;
-        a:hover{
-            color: #d30000;
-            background: red;
-        }
-        span::after{
-            padding: 12.88px;
-            content: url(/image/index/right-arrow.svg);
+        margin-right: 12.88px;
+        
+        &:hover{
+            color: #078FF7;
         }
     }
+    // img{
+    //     width: 6.25px;
+    //     height: 10.49px;
+    // }
     
 }
 .hover0:hover{
     border: 1px solid ;
 }
 
-.hover{
+.hover:hover{
     cursor: pointer;
     transition: all 0.3s ease;
     &:hover{
         transform: scale(1.05);
     }
 }
-.hover2{
+.hover2:hover{
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
     &:hover{
         transform: scale(1.02);
         background: #d8e6f1;
     }
 }
-.hover3{
+.hover3:hover{
     cursor: pointer;
     transition: all 0.3s ease;
 
     &:hover{
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 }
 .view-all-m{
     display: none;
 }
-h1,h2,h3,h4{
-    margin: 0;
-}
-p{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-}
-

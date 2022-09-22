@@ -27,39 +27,17 @@ head .logo_img{
 @import './Media-Q/mindex';
 @import './Media-Q/mservice';
 @import './Media-Q/mmobileapp';
-@import './all-files-sass/doctors/doctor';
-@import './all-files-sass/doctors/similar';
-@import './all-files-sass/doctors/dsearch';
-@import './all-files-sass/hospitals/hospital';
-@import './all-files-sass/hospitals/tabs';
-@import './all-files-sass/hospitals/special';
-@import './all-files-sass/hospitals/services';
-@import './all-files-sass/ambulances/ambulance';
-@import './all-files-sass/ambulances/form';
-@import './all-files-sass/health-insurance/health';
-@import './all-files-sass/health-insurance/menshealth';
-
-// @import './all-files-sass/hospitals/nav';
-
-// hospital  
-// hospital  
-
-
-// @import 'owl.carousel/dist/assets/owl.carousel.css';
-// @import 'owl.carousel';
-
-// @import './hc/d-test'
 
 // @import './scrollbar';
 // @import './owl';
 
 
 
-// @mixin flexcenter {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 // body{
 //     margin: 0px 50px 0px 50px;
 //     padding: 0px 25px;

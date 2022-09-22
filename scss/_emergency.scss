@@ -6,13 +6,11 @@
         text-align: center;
         .h-con{
             margin: 0;
-            display: flex;
-            align-items: center;
             h1{
                 font-weight: 700;
                 font-size: 30px;
                 color: #111417;
-                margin: 40px 0;
+                margin-bottom: 40px;
             }
             a{
                 margin: 12.88px;
@@ -21,6 +19,10 @@
                 font-size: 16px;
                 color: #04518C;
             }
+        }
+        img{
+            width: 6.25px;
+            height: 10.49px;
         }
     }
     .vehicle{
@@ -44,8 +46,6 @@
             .cover-img{
                 // max-width: 331px;
                 width: 100%;
-                // padding: 22px;
-                margin-bottom: 10px;
             }
             a{
                 text-decoration: none;
@@ -58,7 +58,7 @@
                 font-weight: 700;
                 font-size: 18px;
                 margin: auto;
-                padding: 12px 0;
+                padding-bottom: 12px;
             }
             .benifits{
                 box-sizing: border-box;

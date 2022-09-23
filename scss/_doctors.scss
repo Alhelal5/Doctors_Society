@@ -1,10 +1,14 @@
 .doctors{
     // margin: auto
     // padding: 0 10px;
+    
+
     .headings{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-top: 100px;
+        
         .h-con{
             margin: 0;
             h1{
@@ -16,24 +20,7 @@
                 font-weight: 500;
                 font-size: 16px;
                 color: #617283;
-                
             }
-        }
-
-
-        .search-btn{
-            margin: 0;
-            a{
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 16px;
-                color: #04518C;
-            }
-            img{
-                width: 6.25px;
-                height: 10.49px;
-            }
-            
         }
     }
     .specialist{
@@ -42,10 +29,9 @@
         // margin: 32px 0px;
         // gap: 5px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
-        gap: 5%;
         // margin: 32px 0;
         .service{
             display: flex;
@@ -64,7 +50,8 @@
                 align-items: center;
                 margin-bottom: 11px;
             }
-            span{
+            a{
+                text-decoration: none;
                 font-weight: 500;
                 font-size: 12px;
                 color: #078FF7;
@@ -73,29 +60,3 @@
     }
 }
 
-.diagonostic{
-    .headings{
-        h1{
-            margin-top: 8px;
-        }
-    }
-
-    .machines{
-        gap: 4.2%;
-        margin-top: 32px;
-
-        .service{
-            
-            img{
-                height: 144px;
-                width: 144px;
-                margin: 2px 0 ;
-            }
-            .fifth-img{
-                margin-top: 25px;
-
-            }
-        }
-
-    }
-}

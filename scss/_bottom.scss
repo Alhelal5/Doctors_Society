@@ -1,11 +1,12 @@
 .bottom{
     background-color: #023154;
     .footer{
-        padding: 49px 0;
+        padding: 49px 27px;
         color: #FFFFFF;
         display: flex;
         // align-items: center;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 107px;
         .one{
             img{
                 background-color: #023154;
@@ -19,21 +20,40 @@
                 line-height: 149%;
             }
             .social{
+                a{
+                    text-decoration: none;
+                }
                 img{
                     margin-right:25px ;
                 }
+                
             }
             .num{
                 margin-top: 42.31px;
                 // align-items: center;
-                img{
-                    margin-right: 14.53px;
+                a{
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    padding: 14pxs;
+                    
+                    &::before{
+                        content: url(/image/index/call.svg);
+                        margin-right: 14.53px;
+                    }
                 }
             }
 
         }
+        .twoo{
+            display: flex;
+            gap: 140px;
+        }
         .li-a{
             list-style-type: none;
+            margin: 0 5px;
+            i{display: none;}
             h2{
                 color: #FFFFFF;
                 margin-bottom: 8px;
@@ -49,12 +69,17 @@
                 line-height: 149%;
                 color: #F1F1F1;
             }
+            a:hover{
+                color:#93A1AF;
+                padding-left: 1px;
+
+            }
         }
         
     }
     .cr{
-        padding: 20px;
-        margin-top: 68px;
+        padding-bottom: 20px;
+        margin-top: 19px;
         font-weight: 400;
         font-size: 13px;
         display: flex;

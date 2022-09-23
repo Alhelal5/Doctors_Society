@@ -1,16 +1,17 @@
 
-*{
+
+* , html , body{
     margin: 0;
     padding: 0;
-    max-width: 1440px;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
-    margin: 0 auto;
+    scroll-behavior:smooth;
+    // font-size: 14px;
+    // margin: 0 auto;
 }
-.width{
-    // width: 85%;
-    width: 92.2916666667%;
-    margin: auto;
+head .logo_img{
+    border-radius: 50%;
+    color: #111;
 }
 @import './topnav';
 @import './nav';
@@ -22,16 +23,48 @@
 @import './bottom';
 @import './search';
 @import './margin';
+@import './Media-Q/mcommon';
+@import './Media-Q/mindex';
+@import './Media-Q/mservice';
+@import './Media-Q/mmobileapp';
+@import './all-files-sass/doctors/doctor';
+@import './all-files-sass/doctors/similar';
+@import './all-files-sass/doctors/dsearch';
+@import './all-files-sass/hospitals/hospital';
+@import './all-files-sass/hospitals/tabs';
+@import './all-files-sass/hospitals/special';
+@import './all-files-sass/hospitals/services';
+@import './all-files-sass/ambulances/ambulance';
+@import './all-files-sass/ambulances/form';
+@import './all-files-sass/health-insurance/health';
+@import './all-files-sass/health-insurance/menshealth';
+
+// @import './all-files-sass/hospitals/nav';
+
+// hospital  
+// hospital  
 
 
-@mixin flexcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-body{
-    // margin: 0px 50px 0px 50px;
-    // padding: 0px 25px;
-}
+// @import 'owl.carousel/dist/assets/owl.carousel.css';
+// @import 'owl.carousel';
+
+// @import './hc/d-test'
+
+// @import './scrollbar';
+// @import './owl';
+
+
+
+// @mixin flexcenter {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// body{
+//     margin: 0px 50px 0px 50px;
+//     padding: 0px 25px;
+// }
+
+
 
 

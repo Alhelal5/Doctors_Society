@@ -28,6 +28,15 @@
                 p{
                     font-weight: 500;
                     font-size: 14px;
+                    margin-bottom: 0;
+                }
+                .m-search{
+                    padding: 0;
+                    .search-btn{
+                        .m-btn{
+                            background: #19b2bd;
+                        }
+                    }
                 }
                 // .sms{
                 //     box-sizing: border-box;

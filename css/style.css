@@ -44,7 +44,7 @@ head .logo_img {
 .top .home-nav .nav-ha a, .top .home-nav .nav-lf a {
   text-decoration: none;
   color: #617283;
-  padding: 8.5px 16px 8.5px 16px;
+  padding: 8.5px 16px 9.5px 16px;
   white-space: nowrap;
 }
 .top .home-nav .nav-ha a:hover, .top .home-nav .nav-lf a:hover {
@@ -175,7 +175,7 @@ head .logo_img {
 }
 .serve .service .search-box .links a:hover {
   color: #FFFFFF;
-  padding-bottom: 15px;
+  padding-bottom: 16px;
   border-bottom: 2px solid #71BFFB;
 }
 .serve .service .search-box .search {
@@ -271,7 +271,7 @@ head .logo_img {
   font-weight: 700;
   font-size: 18px;
   align-items: center;
-  margin-bottom: 11px;
+  margin: 12px 0;
 }
 .doctors .specialist .service a {
   text-decoration: none;
@@ -463,7 +463,7 @@ head .logo_img {
 }
 .news .links a:hover {
   padding-bottom: 24px;
-  border-bottom: 3px solid #71BFFB;
+  border-bottom: 2px solid #71BFFB;
   width: 208px;
 }
 .news h1 {
@@ -569,11 +569,11 @@ head .logo_img {
 .news .btn .view-more {
   padding: 16px 32px;
   gap: 4px;
-  max-width: 210px;
+  width: 210px;
   height: 52px;
   background: #19B3BD;
   border-radius: 4px;
-  border: 2px solid #19B3BD;
+  border: none;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
@@ -628,6 +628,13 @@ head .logo_img {
 .mobileapp .beni .sides .left p {
   font-weight: 500;
   font-size: 14px;
+  margin-bottom: 0;
+}
+.mobileapp .beni .sides .left .m-search {
+  padding: 0;
+}
+.mobileapp .beni .sides .left .m-search .search-btn .m-btn {
+  background: #19b2bd;
 }
 .mobileapp .beni .sides .left .appstore {
   margin: 5px;
@@ -877,12 +884,14 @@ head .logo_img {
   margin: 24px;
   color: #FFFFFF;
   background: #078FF7;
-  border: 2px solid #078FF7;
   border-radius: 4px;
   font-weight: 700;
   font-size: 14px;
   outline: none !important;
   transition: all 0.2s ease;
+}
+.search .m-btn {
+  padding: 16px;
 }
 .search button:hover {
   background: rgba(0, 145, 255, 0.6901960784);
@@ -1962,6 +1971,7 @@ p {
   font-weight: 500;
   border: 1px solid #D0D3D6;
   border-radius: 4px;
+  cursor: pointer;
 }
 .search-contain .doc-s-btn {
   margin: 24px auto;
@@ -1993,6 +2003,7 @@ p {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
 }
 .search-contain .tabs #tab option {
   background: #023154;
@@ -2737,6 +2748,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #4D5A68;
+  cursor: pointer;
 }
 .main-body .search {
   padding: 0;

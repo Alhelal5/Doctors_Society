@@ -1844,7 +1844,7 @@ p {
   margin: 16px 0;
 }
 .similar .card .doctor .hospital .name p::before {
-  content: url(/scss/all-files-sass/search-all/image/hospital.svg);
+  content: url(../scss/all-files-sass/search-all/image/hospital.svg);
   margin-right: 9.67px;
 }
 .similar .card .doctor .hospital .name p {
@@ -2036,7 +2036,7 @@ body {
 }
 
 .sign h2::before {
-  content: url(/scss/all-files-sass/hospitals/image/b_left.svg);
+  content: url(../scss/all-files-sass/hospitals/image/b_left.svg);
   background: none;
   padding: 0 9.87px;
 }
@@ -2505,7 +2505,7 @@ body {
   max-width: 1216px;
   min-height: 356px;
   background: linear-gradient(90deg, rgba(0, 30, 53, 0.83) 9.21%, rgba(10, 69, 114, 0.31) 75.08%);
-  background-image: url(/scss/all-files-sass/ambulances/image/background.svg);
+  background-image: url(../scss/all-files-sass/ambulances/image/background.svg);
   padding: 38px 40px;
 }
 .head-back .head h1 {
@@ -2534,7 +2534,7 @@ body {
   margin: 32px auto;
 }
 .head-back .best p::before {
-  content: url(/scss/all-files-sass/ambulances/image/Outline.svg);
+  content: url(../scss/all-files-sass/ambulances/image/Outline.svg);
   align-items: center;
 }
 .head-back .best p {
@@ -2588,7 +2588,7 @@ body {
   gap: 16px;
 }
 .grandpa .amb-parent .ac-amb .key span:before {
-  content: url(/scss/all-files-sass/ambulances/image/tik.svg);
+  content: url(../scss/all-files-sass/ambulances/image/tik.svg);
   padding-right: 8.33px;
 }
 .grandpa .form {
@@ -2701,7 +2701,7 @@ body {
   color: #39434D;
 }
 .amb-container .eg::before {
-  content: url(/scss/all-files-sass/ambulances/image/coolicon.svg);
+  content: url(../scss/all-files-sass/ambulances/image/coolicon.svg);
 }
 
 .heading h1 {

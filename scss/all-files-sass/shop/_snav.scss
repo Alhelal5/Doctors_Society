@@ -1,19 +1,23 @@
 .shop-nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    // max-width: 1440px;
     margin: auto;
     height: 80px;
     padding: 16px;
     gap: 16px;
     background: #04518C;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
     .logo{
         padding: 7px;
         a{text-decoration: none;}
         img{
-            width: 106px;
+            // width: 106px;
             height: 31.72px;
             align-items: center;
+            filter: brightness(0) invert(1);
         }
     }
     .location{

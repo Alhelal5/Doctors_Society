@@ -5,12 +5,15 @@
         color: #FFFFFF;
         display: flex;
         // align-items: center;
-        // justify-content: space-between;
-        gap: 107px;
+        justify-content: space-between;
+        // gap: 107px;
         .one{
-            img{
-                background-color: #023154;
-                color: #FFFFFF;
+            img.logo{
+                // background-color: #023154;
+                // color: #FFFFFF;
+                width: 150px;
+                height: 50px;
+                filter: brightness(0) invert(1);
             }
             p{
                 margin: 16px 0;
@@ -39,17 +42,17 @@
                     padding: 14pxs;
                     
                     &::before{
-                        content: url(/image/index/call.svg);
+                        content: url(../image/index/call.svg);
                         margin-right: 14.53px;
                     }
                 }
             }
 
         }
-        .twoo{
-            display: flex;
-            gap: 140px;
-        }
+        // .twoo{
+        //     display: flex;
+        //     gap: 140px;
+        // }
         .li-a{
             list-style-type: none;
             margin: 0 5px;

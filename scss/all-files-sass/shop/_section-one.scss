@@ -25,7 +25,7 @@
     }
     .shop-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
         gap: 15px;
         margin: 22px 0 ;
         .sp-con-zero{
@@ -38,7 +38,7 @@
         }
         .scontainer{
             display: flex;
-            width: 277px;
+            // width: 277px;
             height: 174px;
             border-radius: 4px;
             overflow: hidden;
